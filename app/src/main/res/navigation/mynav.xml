@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mynav"
+    app:startDestination="@id/homeScreen">
+
+    <fragment
+        android:id="@+id/homeScreen"
+        android:name="com.learningandroid.protradin.HomeScreen"
+        android:label="fragment_home_screen"
+        tools:layout="@layout/fragment_home_screen" />
+    <fragment
+        android:id="@+id/trips"
+        android:name="com.learningandroid.protradin.Trips"
+        android:label="fragment_trips"
+        tools:layout="@layout/fragment_trips" />
+    <fragment
+        android:id="@+id/messages"
+        android:name="com.learningandroid.protradin.Messages"
+        android:label="fragment_messages"
+        tools:layout="@layout/fragment_messages" />
+    <fragment
+        android:id="@+id/host"
+        android:name="com.learningandroid.protradin.Host"
+        android:label="fragment_host"
+        tools:layout="@layout/fragment_host" />
+    <fragment
+        android:id="@+id/more"
+        android:name="com.learningandroid.protradin.More"
+        android:label="fragment_more"
+        tools:layout="@layout/fragment_more" />
+</navigation>

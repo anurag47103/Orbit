@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/fragment_home_screen"
+        android:title="Search"
+        android:icon="@drawable/search_icon" />
+    <item
+        android:id="@+id/fragment_trips"
+        android:title="Trips"
+        android:icon="@drawable/trips_icon"/>
+    <item
+        android:id="@+id/fragment_messages"
+        android:title="Messages"
+        android:icon="@drawable/messages_icon"/>
+    <item
+        android:id="@+id/fragment_host"
+        android:title="Host"
+        android:icon="@drawable/host_icon"/>
+    <item
+        android:id="@+id/fragment_more"
+        android:title="More"
+        android:icon="@drawable/more_icon"/>
+</menu>
