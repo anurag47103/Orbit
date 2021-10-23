@@ -43,7 +43,7 @@ public class SplashScreen extends AppCompatActivity {
             heading.animate().alpha(0).setDuration(500);
             startActivity(new Intent(this, MainActivity.class));
             finish();
-        }, 4000);
+        }, 1000);
 
 
 

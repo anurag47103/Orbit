@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         bottomNavigation.setCount(1, "10");
-        bottomNavigation.show(2, true);
+        bottomNavigation.show(1, true);
 
         bottomNavigation.setOnClickMenuListener(new MeowBottomNavigation.ClickListener() {
             @Override

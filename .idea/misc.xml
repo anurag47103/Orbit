@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/bg_white_rounded.xml" value="0.34074074074074073" />
         <entry key="app/src/main/res/font/aladin.xml" value="0.37222222222222223" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="app/src/main/res/layout/fragment_home_screen.xml" value="0.2796352583586626" />
