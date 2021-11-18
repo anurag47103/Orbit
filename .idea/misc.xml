@@ -3,19 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/abhis/Desktop/Abhi/Prog/ANDROID PROJECTS/Orbit/app/src/main/res/layout/activity_main.xml" value="0.33240740740740743" />
-        <entry key="..\:/Users/abhis/Desktop/Abhi/Prog/ANDROID PROJECTS/Orbit/app/src/main/res/layout/fragment_active.xml" value="0.1" />
-        <entry key="..\:/Users/abhis/Desktop/Abhi/Prog/ANDROID PROJECTS/Orbit/app/src/main/res/layout/fragment_booked.xml" value="0.20462962962962963" />
-        <entry key="..\:/Users/abhis/Desktop/Abhi/Prog/ANDROID PROJECTS/Orbit/app/src/main/res/layout/fragment_history.xml" value="0.1" />
-        <entry key="..\:/Users/abhis/Desktop/Abhi/Prog/ANDROID PROJECTS/Orbit/app/src/main/res/layout/fragment_home_screen.xml" value="0.38697916666666665" />
-        <entry key="..\:/Users/abhis/Desktop/Abhi/Prog/ANDROID PROJECTS/Orbit/app/src/main/res/layout/fragment_trips.xml" value="0.18" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.5635416666666667" />
         <entry key="app/src/main/res/drawable/bg_white_rounded.xml" value="0.34074074074074073" />
         <entry key="app/src/main/res/font/aladin.xml" value="0.37222222222222223" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="app/src/main/res/layout/fragment_home_screen.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_active.xml" value="0.575" />
+        <entry key="app/src/main/res/layout/fragment_booked.xml" value="0.575" />
+        <entry key="app/src/main/res/layout/fragment_history.xml" value="0.575" />
+        <entry key="app/src/main/res/layout/fragment_home_screen.xml" value="0.3018232819074334" />
         <entry key="app/src/main/res/layout/fragment_host.xml" value="0.2796352583586626" />
-        <entry key="app/src/main/res/layout/fragment_more.xml" value="0.2796352583586626" />
+        <entry key="app/src/main/res/layout/fragment_more.xml" value="0.4798541068353189" />
         <entry key="app/src/main/res/layout/fragment_trips.xml" value="0.2796352583586626" />
+        <entry key="app/src/main/res/layout/login_screen.xml" value="0.5473958333333333" />
+        <entry key="app/src/main/res/layout/login_screen_logo.xml" value="0.5473958333333333" />
         <entry key="app/src/main/res/layout/splash_screen.xml" value="0.2796352583586626" />
         <entry key="app/src/main/res/menu/bottom_menu.xml" value="0.20462962962962963" />
       </map>

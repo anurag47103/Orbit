@@ -9,11 +9,12 @@
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
+        style="@style/big_text_view_style"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Upcoming Bookings"
+        android:text="Trips"
         android:textAlignment="center"
-        android:textSize="30sp"/>
+        android:textSize="30sp" />
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"

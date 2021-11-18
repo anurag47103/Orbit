@@ -1,12 +1,15 @@
 package com.learningandroid.protradin;
 
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -14,6 +17,7 @@ import android.view.ViewGroup;
  * create an instance of this fragment.
  */
 public class HomeScreen extends Fragment {
+    private RecyclerView recyclerView;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -53,12 +57,27 @@ public class HomeScreen extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home_screen, container, false);
+        View view =  inflater.inflate(R.layout.fragment_home_screen, container, false);
+//
+//        ImageView imageView = view.findViewById(R.id.imageView4);
+//        imageView.setImageBitmap(BitmapFactory.decodeResource(getContext().getResources(), R.drawable.fuel_image_1_min));
+//
+//        ImageView imageView2 = view.findViewById(R.id.imageView5);
+//        imageView2.setImageBitmap(BitmapFactory.decodeResource(getContext().getResources(), R.drawable.fuel_image_2_min));
+
+        recyclerView = view.findViewById(R.id.recycler);
+        recyclerView.setHasFixedSize(true);
+
+
+
+
+        return view;
     }
 }
